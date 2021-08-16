@@ -1,0 +1,29 @@
+{
+  "name": "mern_shoppinglist",
+  "version": "1.0.0",
+  "description": "shoppinglit with MERN stack",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmanyFekry/MERN_shoppinglist.git"
+  },
+  "author": "Amany Fekry",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AmanyFekry/MERN_shoppinglist/issues"
+  },
+  "homepage": "https://github.com/AmanyFekry/MERN_shoppinglist#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^6.2.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
